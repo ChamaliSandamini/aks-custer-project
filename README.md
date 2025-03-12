@@ -90,8 +90,5 @@ use curl:
 
 
 
-4. Troubleshooting & Fixes
-Issue	Fix
+4. Issue	Fix
 Terraform error: "Resource already exists"	Use terraform import to import the existing resource into Terraform.
-Service has EXTERNAL-IP as <pending>	Wait a few minutes. If it doesn’t change, check if your cluster supports LoadBalancer services.
-Unable to access app in browser	Ensure the correct EXTERNAL-IP is used and that the AKS cluster has public access enabled.
