@@ -29,7 +29,7 @@ If you see an error stating that the resource already exists, import it into Ter
 
 
 2. Deploying the Application
-We used a Deployment and Service to run a containerized app.
+I used a Deployment and Service to run a containerized app.
 
 2.1 Create the Deployment YAML (deployment.yaml)
                 apiVersion: apps/v1
