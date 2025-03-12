@@ -1,0 +1,12 @@
+apiVersion: v1  # API version for Service
+kind: Service  # resource type
+metadata:
+  name: nginx-service  # Name of the Service
+spec:
+  selector:
+    app: nginx  # Selects pods
+  ports:
+    - protocol: TCP  # communication protocol  
+      port: 80  # Exposed port on the Service
+      targetPort: 80  # Port on the container where traffic will be forwarded
+  type: LoadBalancer  # Exposes the Service with a public IP externally 
